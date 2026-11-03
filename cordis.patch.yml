@@ -1,0 +1,6 @@
+# @cxk991/dsh-quick-restart —— bundle patch
+#
+# 只插一行：宿主半边（index.js）注册重启接口，客户端半边（client.js）画按钮和确认框。
+- insert:
+    - id: dsh-quick-restart
+      name: '@cxk991/dsh-quick-restart'

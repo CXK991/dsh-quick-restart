@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Quick Restart",
+    "description": "Adds a Restart DSH button above Settings in the sidebar footer: press it, confirm once, and DSH closes and starts again by itself."
+  }
+}
