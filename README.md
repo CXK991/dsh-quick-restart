@@ -15,20 +15,7 @@
 
 ## 安装
 
-**方式一：插件市场（推荐）**
-
-在 DSH 里装好 [dsh-market](https://github.com/dsh-market/dsh-market) 后，打开 **插件 → 插件市场**，
-搜索 `quick restart` 或 `@cxk9911/dsh-quick-restart`，一键安装。
-
-**方式二：官方 Discover（自建索引源，零审核）**
-
-本仓库/本 npm 包自带一份 format-1 索引：**Plugins → Discover → Add index source** 粘贴
-
-```
-https://cdn.jsdelivr.net/npm/@cxk9911/dsh-quick-restart@1.0.0/index.json
-```
-
-**方式三：命令行**
+**方式一：命令行（npm，推荐）**
 
 ```sh
 # 桌面版（profile 名通常是 desktop）
@@ -38,7 +25,22 @@ dsh plugin --profile desktop add @cxk9911/dsh-quick-restart
 dsh plugin --profile web add @cxk9911/dsh-quick-restart
 ```
 
-**方式四：在本机开发/试用（link 安装）**
+也可以在 **设置 → 插件 → 安装** 里直接填包名 `@cxk9911/dsh-quick-restart`。
+
+**方式二：官方 Discover（自建索引源，零审核）**
+
+> 本插件**还没有收录进** dsh-market 的社区目录（同类重启插件已有多个），因此市场搜索里找不到；
+> 想从 Discover 装的话，加一份索引源即可：
+
+1. 先在 **Plugins → Experimental plugins → More** 打开 **Custom plugin markets**，出现 **Discover** 标签；
+2. **Discover → Add index source**，粘贴下面任一地址：
+
+```
+https://cdn.jsdelivr.net/npm/@cxk9911/dsh-quick-restart/index.json
+https://raw.githubusercontent.com/CXK991/dsh-quick-restart/main/index.json
+```
+
+**方式三：在本机开发/试用（link 安装）**
 
 ```sh
 dsh plugin --profile desktop add "link:/path/to/dsh-quick-restart"

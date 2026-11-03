@@ -2,6 +2,12 @@
 
 本插件的版本记录。版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## 1.0.1 — 2026-11-03
+
+- README：安装说明改为以 npm 为主（本插件未收录进 dsh-market 社区目录，市场搜索找不到）；
+  Discover 索引源改用不带版本号的地址（`.../dsh-quick-restart/index.json`）。
+- 仓库补 `dsh-plugin` topic、GitHub Release v1.0.0。
+
 ## 1.0.0 — 2026-11-03
 
 首个公开版本。
