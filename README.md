@@ -1,5 +1,9 @@
 # @cxk991/dsh-quick-restart · 一键重启 DSH
 
+[![npm](https://img.shields.io/npm/v/@cxk991/dsh-quick-restart)](https://www.npmjs.com/package/@cxk991/dsh-quick-restart)
+[![license](https://img.shields.io/npm/l/@cxk991/dsh-quick-restart)](LICENSE)
+[![GitHub](https://img.shields.io/github/stars/CXK991/dsh-quick-restart)](https://github.com/CXK991/dsh-quick-restart)
+
 **侧边栏左下角（设置按钮正上方）多一个「重启 DSH」按钮：点一下、确认一次，DSH 自动关闭并重新启动。**
 
 把「改完东西要重启 DSH」从"找托盘 → 退出 → 再双击打开"变成一次点击。适用于折腾插件、
@@ -16,7 +20,15 @@
 在 DSH 里装好 [dsh-market](https://github.com/dsh-market/dsh-market) 后，打开 **插件 → 插件市场**，
 搜索 `quick restart` 或 `@cxk991/dsh-quick-restart`，一键安装。
 
-**方式二：命令行**
+**方式二：官方 Discover（自建索引源，零审核）**
+
+本仓库/本 npm 包自带一份 format-1 索引：**Plugins → Discover → Add index source** 粘贴
+
+```
+https://cdn.jsdelivr.net/npm/@cxk991/dsh-quick-restart@1.0.0/index.json
+```
+
+**方式三：命令行**
 
 ```sh
 # 桌面版（profile 名通常是 desktop）
@@ -26,7 +38,7 @@ dsh plugin --profile desktop add @cxk991/dsh-quick-restart
 dsh plugin --profile web add @cxk991/dsh-quick-restart
 ```
 
-**方式三：在本机开发/试用（link 安装）**
+**方式四：在本机开发/试用（link 安装）**
 
 ```sh
 dsh plugin --profile desktop add "link:/path/to/dsh-quick-restart"

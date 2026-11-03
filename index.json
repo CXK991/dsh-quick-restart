@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "title": { "en": "Quick Restart", "zh": "快速重启" },
+  "description": {
+    "en": "A one-plugin DSH plugin market index for @cxk991/dsh-quick-restart.",
+    "zh": "只收录 @cxk991/dsh-quick-restart 一个插件的 DSH 插件市场索引。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": { "title": { "en": "UI Enhancements", "zh": "界面增强" } }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@cxk991/dsh-quick-restart",
+      "title": { "en": "Quick Restart", "zh": "快速重启" },
+      "description": {
+        "en": "Adds a Restart DSH button above Settings in the sidebar footer: click it, confirm once, and the app closes and starts again by itself.",
+        "zh": "在侧边栏左下角（设置按钮上方）加一个「重启 DSH」按钮：点一下、确认一次，DSH 自动关闭并重新启动。"
+      },
+      "icon": "assets/icon-180.png",
+      "author": "CXK991",
+      "homepage": "https://github.com/CXK991/dsh-quick-restart",
+      "repository": { "url": "https://github.com/CXK991/dsh-quick-restart" },
+      "metadata": { "category": "ui" },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793691000,
+          "source": { "type": "npm" }
+        }
+      ]
+    }
+  ]
+}
