@@ -1,5 +1,5 @@
 {
-  "name": "@cxk991/dsh-quick-restart",
+  "name": "@cxk9911/dsh-quick-restart",
   "version": "1.0.0",
   "description": "侧边栏一键重启 DSH：点一下、确认一次，DSH 自动关闭并重新启动。One-click restart for DeepSeek Harness.",
   "type": "module",

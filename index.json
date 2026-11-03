@@ -2,8 +2,8 @@
   "format": 1,
   "title": { "en": "Quick Restart", "zh": "快速重启" },
   "description": {
-    "en": "A one-plugin DSH plugin market index for @cxk991/dsh-quick-restart.",
-    "zh": "只收录 @cxk991/dsh-quick-restart 一个插件的 DSH 插件市场索引。"
+    "en": "A one-plugin DSH plugin market index for @cxk9911/dsh-quick-restart.",
+    "zh": "只收录 @cxk9911/dsh-quick-restart 一个插件的 DSH 插件市场索引。"
   },
   "metadata": {
     "categories": {
@@ -14,7 +14,7 @@
   },
   "plugins": [
     {
-      "name": "@cxk991/dsh-quick-restart",
+      "name": "@cxk9911/dsh-quick-restart",
       "title": { "en": "Quick Restart", "zh": "快速重启" },
       "description": {
         "en": "Adds a Restart DSH button above Settings in the sidebar footer: click it, confirm once, and the app closes and starts again by itself.",

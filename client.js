@@ -9,7 +9,7 @@
  *         PowerShell 助手杀进程并重新拉起。
  */
 window.__ModuleLoader__.load({
-  id: '@cxk991/dsh-quick-restart',
+  id: '@cxk9911/dsh-quick-restart',
   factory: (require) => {
     const React = require('react')
     const h = React.createElement
